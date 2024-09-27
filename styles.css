@@ -35,7 +35,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: var(--secondary-color);
+    background-color: #16497c31;
     color: #fff;
     padding: 20px 0;
     position: fixed;
