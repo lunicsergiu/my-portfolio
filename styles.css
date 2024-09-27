@@ -35,7 +35,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #e3ebf3b3;
+    background-color: var(--secondary-color);
     color: #fff;
     padding: 20px 0;
     position: fixed;
@@ -49,6 +49,7 @@ header {
     font-family: var(--font-family-secondary);
     font-size: 1.8em;
     text-align: center;
+    padding-left: 20px;
 }
 
 nav {
@@ -118,7 +119,7 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 80px; /* Height of header */
+    margin-top: 90px; /* Height of header */
 }
 
 #hero::after {
@@ -128,7 +129,7 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(44, 62, 80, 0.7);
+    background-color: #00000000;
 }
 
 #hero .container {
